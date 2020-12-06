@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+<C-S>	init.vim	/^inoremap <C-S> <ESC>:w<CR>$/;"	m
+<C-S>	init.vim	/^nnoremap <C-S> :w<CR>$/;"	m
+<TAB>	init.vim	/^inoremap <expr> <TAB> pumvisible() ? "\\<C-y>" : "\\<C-g>u\\<TAB>"$/;"	m
+<f2>	init.vim	/^nnoremap <f2> :CocCommand explorer<CR>$/;"	m
+<leader><leader>	init.vim	/^nnoremap <leader><leader> :CocList<CR>$/;"	m
+g:NERDAltDelims_java	init.vim	/^let g:NERDAltDelims_java = 1$/;"	v
+g:NERDCommentEmptyLines	init.vim	/^let g:NERDCommentEmptyLines = 1$/;"	v
+g:NERDCompactSexyComs	init.vim	/^let g:NERDCompactSexyComs = 1$/;"	v
+g:NERDCreateDefaultMappings	init.vim	/^let g:NERDCreateDefaultMappings = 1$/;"	v
+g:NERDCustomDelimiters	init.vim	/^let g:NERDCustomDelimiters = { 'c': { 'left': '\/**','right': '*\/' } }$/;"	v
+g:NERDDefaultAlign	init.vim	/^let g:NERDDefaultAlign = 'left'$/;"	v
+g:NERDSpaceDelims	init.vim	/^let g:NERDSpaceDelims = 1$/;"	v
+g:NERDToggleCheckAllLines	init.vim	/^let g:NERDToggleCheckAllLines = 1$/;"	v
+g:NERDTrimTrailingWhitespace	init.vim	/^let g:NERDTrimTrailingWhitespace = 1$/;"	v
+g:indentLine_color_tty_light	init.vim	/^let g:indentLine_color_tty_light = 7$/;"	v
+g:lsc_auto_map	init.vim	/^let g:lsc_auto_map = v:true$/;"	v
+mapleader	init.vim	/^let mapleader = "\\<Space>"$/;"	v
